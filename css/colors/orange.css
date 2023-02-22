@@ -1,0 +1,29 @@
+.phonenumber span:hover ,
+.phonenumber:hover .icon1,
+.linkicon:hover .icon2,
+.activeLink,
+.nav-link:hover span,
+.data h1,
+.bannerLink:hover,
+.aboutLink:hover,
+.linksDiv a:hover,
+.footerSocialIcon
+
+{
+    color: #fbaa00!important;
+}
+
+.linkicon:hover,
+.projectLinks .nav-link,
+.projectLinks .nav-link.active{
+    border: 1px solid #fbaa00;
+}
+
+.title-text::after,
+.aboutLink,
+.projectLinks .nav-link.active,
+.carryicon
+
+{
+    background: #fbaa00!important;
+}

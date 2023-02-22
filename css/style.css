@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;   
+}
+body{
+    height: 2000px;
+    background-color: #fff;
+}
+.border-shadow{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.title-text{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.title-text::after{
+    width: 65px;
+    height: 5px;
+    content: "";
+    position: relative;
+    display: block;
+    margin: 10px 0;
+}
+
+.vegas-timer {
+    top: auto;
+    bottom: 0;
+    height: 0px;
+}
+/* //////////////////////Home Section/////////////////////////// */
+/* //////////////////////Home Section/////////////////////////// */
+/* //////////////////////Home Section/////////////////////////// */
+
+
+#Home{
+    
+width: 100%;
+height: auto;
+background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7))!important  ;
+background-size: contain;
+position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7))!important ;
+    background-size: contain;
+}
+.phonenumber:hover .icon1{
+    transition: all 1s ease;
+}
+.phonenumber span{
+    transition: all 0.2s ease;
+}
+.linkicon{ 
+    width: 50px;
+    height: 40px;
+    transition: all 0.6s ease;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #343a40;
+
+
+}
+.linkicon .icon2{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    transition: all 1s ease;
+} 
+.linkicon:hover{
+  border-radius: 50%;
+}
+nav{ 
+    background-color: rgba(0,0,0,0.3);
+    z-index: 111111;
+    /* opacity: 0.75; */
+}
+nav ul li a{
+    
+    transition: all 0.4s ease;
+}
+nav ul li a:hover{
+    color: orange;  
+}
+.logo-img {
+    width: 50px;
+    height: 50px;
+}
+.logo-Name{
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.nav-link:hover span{
+    transition: all 0.4s ease;
+}
+
+
+nav.sticky{
+    margin-top: -60px;
+    padding: 20px ;
+    background-color: black;
+    opacity: 1;
+    transition: 0.5s;
+
+}
+nav.sticky li{
+    position: relative;
+    top: 10px;
+}
+nav.sticky .logo-img {
+    position: relative;
+    top: 10px;
+}
+nav.sticky .logo-Name{
+    position: relative;
+    top: 10px;
+}
+.data {
+    overflow: hidden;
+    position: relative;
+    top: 80px;
+    left: 220px;
+  
+
+}
+.data h1{
+    font-weight: 700;
+    font-size: 80px;
+}
+.banner-text{
+    font-size: 18px;
+}
+.bannerLink {
+    background-color: black;
+    border-radius: 50px;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+/* //////////////////////Home Section/////////////////////////// */
+/* //////////////////////Home Section/////////////////////////// */
+/* //////////////////////Home Section/////////////////////////// */
+#About{
+    width: 100%;
+    height: auto;
+    background: url(..//images/construction01.png)   ;
+    background-size: cover;
+    position: relative;
+}
+title-text{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.title-text::after{
+    width: 65px;
+    height: 5px;
+    content: "";
+    position: relative;
+    display: block;
+    margin: 10px 0;
+}
+.aboutText{
+    font-size: 19px;
+    color: #999999;
+    line-height: 30px;
+}
+.aboutLink {
+    color: black;
+    border-radius: 50px;
+    padding: 10px 40px;
+    text-decoration: none;
+
+    transition: all 0.4s ease;
+}
+.aboutData{
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.aboutLink:hover{
+    background-color: #000;
+    
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+#Services{
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+.services-img{
+    width: 96px;
+    height: 96px;
+}
+.services-text{
+    font-size: 17px;
+    color: #999999;
+}
+.we-do{
+    background: #222222;
+    transition: all 2s ease;
+    
+}
+.we-do-img
+{
+    width: 90px;
+}
+.we-do:hover .we-do-div{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.we-do::after{
+    background: rgba(0, 0, 0, 0.2);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    transition: ease all 0.5s;
+    height: 100%;
+}
+.we-do:hover::after {
+    width: 100%;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+#OurWork{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.title-text-p{
+    font-size: 20px;
+    color: #999999;
+}
+
+.projectLinks{
+margin-bottom: 10px;
+}
+
+.projectLinks .nav-link{
+    background-color: white!important;
+    border-radius: 4px;
+    color: black!important;
+    border: 1px solid orangered;
+    font-size: 20px;
+    line-height: 30px;
+    }
+.projectLinks .nav-link span {
+        font-size: 30px;
+        color: orangered;
+    }
+
+.projectLinks .nav-link.active{
+    color: white!important;
+
+}    
+
+.projectLinks .nav-link.active span{
+color: white;
+}
+
+.tabs .tab-content{
+    background: #fff;
+    padding: 0;
+} 
+
+.tabs .tab-content .img {
+    width: 100%;
+    height: 400px;
+    margin-top: 25px;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+#TESTIMONIALS{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #1f1f1f;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 700;
+}
+#testemonialscarsoul{
+    width: 100%!important;
+    height: 100%!important;
+    /* margin-bottom:50px!important; */
+}
+.testemonialData{
+    height: 80px!important;
+}
+.fa-quote-left{
+    font-size: 40px;
+}
+.testeheading{
+    font-size: 23px;
+    padding: 5px;
+    color: #c8c8c8;
+}
+.testemonialData p{
+    color: #c8c8c8;
+    font-size: 18px;
+    line-height: 30px;
+}
+.testemonialmeta{
+    display: block;
+    margin-top: 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 10px 20px 20px 0;
+}
+
+.testemonialmeta h5 {
+    padding: 13px 0 0;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+#Contact{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.carryicon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px 0px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+.fa-home{
+    color: white;
+    font-size: 25px;
+}
+.leftside p{
+    font-size: 15px;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+
+input,textarea,select {
+    border: none!important;
+    border-bottom: 3px solid #ebebeb!important;
+} 
+
+.submitBtn{
+    border-radius: 20px;
+    color: #000;
+    font-weight: 700;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+footer{
+    width: 100%;
+    height: auto;
+    background:linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)) ,  url(../images/testimo.jpg) no-repeat center center !important  ;
+    background-size: cover;
+    position: relative;
+    color: #b7b7b7!important;
+
+}
+
+.linksDiv{
+    margin-top: 40px!important;
+}
+
+.linksDiv a {
+text-decoration: none!important;
+margin-top: 20px;
+display: block;
+color: #b7b7b7!important;
+transition: all 0.6s ease;
+
+}
+
+.linksDiv a:hover
+{
+    margin-left: 10px!important;
+}
+.dataspan{
+    margin-top: 20px;
+    line-height: 25px;
+}
+.footerSocialIcon{
+    font-size: 25px;
+    transition: all 0.6s ease;
+
+    
+}
+.footerSocialIcon:hover{
+    color: white!important;
+
+}
+
+
+
+
+
+
+
+
+
+
